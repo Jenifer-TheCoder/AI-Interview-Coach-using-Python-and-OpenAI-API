@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AI Interview Coach</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="AI INTERVIEW COACH.png" alt="AI Interview Coach Icon">
+        <h1>AI Interview Coach</h1>
+    </div>
+    <div class="question-container">
+        <label for="question">Ask Your Question:</label>
+        <input type="text" id="question" placeholder="Enter your question here">
+        <button onclick="getAnswer()">Get Answer</button>
+    </div>
+<!-- ... (your existing HTML code) ... -->
+
+<div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+</div>
+<div class="tip-container" id="tipContainer">
+    <p id="tipText">Tip: Be confident and maintain eye contact during the interview.</p>
+</div>
+
+<!-- ... (rest of your existing HTML code) ... -->
+
+    <div id="answerContainer">
+        <pre><code id="answerText"></code></pre>
+        <p id="panswerText">Ask me anything about programming interviews, and I'll provide you with the best advice to succeed!</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/prism.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

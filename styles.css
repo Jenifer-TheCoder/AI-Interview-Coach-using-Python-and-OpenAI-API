@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.question-container {
+    padding: 20px;
+}
+
+.question-container label {
+    display: block;
+    font-weight: bold;
+}
+
+.question-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.question-container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#answerContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+pre {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+    font-family: 'Roboto', monospace;
+}
+
+#panswerText {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* ... (your existing CSS code) ... */
+
+.progress-container {
+    width: 90%;
+    height: 10px;
+    background-color: #f2f2f2;
+    position: relative;
+    margin-top: 10px;
+    left : 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.2s ease-in-out;
+}
+
+.tip-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+/* ... (rest of your existing CSS code) ... */
